@@ -1,11 +1,16 @@
-#!usr/bin/python3
-"""Defines a locked class."""
+#!/usr/bin/python3
+"""Module implementing LockedClass class.
+
+LockedClass is a class that uses the __slots__ attribute to prevent
+dynamic attribute creation.
+"""
 
 
 class LockedClass:
-    """
-    Prevent the user from instantiating new LockedClass attributes
-    for anything but attributes called 'first_name'.
-    """
+    """LockedClass demonstrates the use of the __slots__ attribute.
 
-    __slots__ = ["first_name"]/
+    Attributes:
+        __slots__: List of strings which may serve as valid attribute
+            identifiers as in `self.__dict__`.
+    """
+    __slots__ = ['first_name']
