@@ -1,4 +1,4 @@
-Usig ``print_square``
+Using ``print_square``
 -----------------------
 
 Checks if size is an int
@@ -44,4 +44,4 @@ No input:
     TypeError: print_square() missing 1 required positional argument: 'size'
 
 Zero input:
-    >>> print_square(0)n
+    >>> print_square(0)
