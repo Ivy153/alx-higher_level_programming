@@ -1,4 +1,4 @@
-Usig ``say_my_name``
+Using ``say_my_name``
 -----------------------
 
 Checks if first_name or last_name is a str
@@ -40,4 +40,4 @@ Last name wrong input:
     >>> say_my_name("Bob", 3)
     Traceback (most recent call last):
     ...
-    TypeError: last_name must be a stringn
+    TypeError: last_name must be a string
